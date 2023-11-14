@@ -22,4 +22,4 @@ You might notice the column 'yr' with two values 0 and 1 indicating the years 20
 # Solution
 I have gathered the data and started doing analysis and got better understanding on the dataset.
 Used Linear Regression for this to model building and residual analysis and have made predictions.
-Can find the day.csv(dataset), data_dictionary file which is meta data of dataset and BukeSharing.ipynb file which starts with preprocessing and ends with 
+Can find the day.csv(dataset), data_dictionary file which is meta data of dataset and BukeSharing.ipynb file which starts with preprocessing and ends evaluating the outcomes of the model
