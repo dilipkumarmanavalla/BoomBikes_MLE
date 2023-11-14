@@ -1,0 +1,27 @@
+From this analysis after Building the model based on the Summary we can see that
+categorical variables
+ 1)Seasons -Fall has negative impact, -Winter has Positive impact.
+ 2)Year has Positive impact
+ 3)Month -July has negative impact, -September has positive impact.
+ 4)WeatherSit -Light has negative impact
+ 5) Other categories has no much effect on the resultant.
+
+*It is important to use drop_first=True during dummy
+variable creationso that it wont create any variation in the implementation of
+code.It reduces time and steps for building the model.
+So droping it benifies us with same value of having that particular
+dropped variable.Also It reduces the correlations created among dummy variables.
+
+*Looking at the pair-plot among the numerical variables, Feeling temperature in Celsius(atemp) has the highest correlation
+with the target variable.
+
+Note:-Assumptions of Linear Regression
+    *Error terms should be normally distributed
+    *There should be insignificant multi-collinearity among variables.
+    *Linearity should be visible among variables
+    *There should be no visible pattern in residual values.
+    *Independence of residuals
+
+*So Based on the final model Temp, Sep and Winter are the top 3 features
+contributing significantly towards explaining the demand of the
+shared bikes.
